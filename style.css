@@ -1,3 +1,8 @@
+@font-face {
+    font-family: x;
+    src:url(fonts/RICKYBRANDON.otf)
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -31,6 +36,7 @@ body{
     box-sizing: border-box;
     -webkit-transition:  all 0.35s ease;
     transition: all 0.35s ease;
+    font-family: x;
 }
 .header-links a {
     position: relative;
@@ -53,8 +59,8 @@ body{
 .header-links a:before{
     right: 0;
     top: 0;
-    border-right: 3px solid#6e7436;
-    border-top: 3px solid #6e7436;
+    border-right: 3px solid#2059c2;
+    border-top: 3px solid #2059c2;
     -webkit-transform: translate(-100%,50%);
     transform: translate(-100%,50%);
 }
@@ -62,8 +68,8 @@ body{
 .header-links a::after{
     left: 0;
     bottom: 0;
-    border-left: 3px solid #6e7436;
-    border-bottom: 3px solid #6e7436;
+    border-left: 3px solid #2059c2;
+    border-bottom: 3px solid #2059c2;
     -webkit-transform: translate(100%,-50%);
     transform: translate(100%,-50%);
 }
@@ -168,3 +174,4 @@ body{
 .header-links a:hover{
    text-shadow: 5px 10px 20px #888888;
 }
+
