@@ -30,7 +30,6 @@ body{
     letter-spacing: 2px;
     font-weight: 700;
     list-style: none;
-    font-family: x;
 }
 .header-links *{
     -webkit-box-sizing: border-box;
@@ -38,7 +37,7 @@ body{
     -webkit-transition:  all 0.35s ease;
     transition: all 0.35s ease;
     font-family: 'Sigmar', cursive;
-
+    font-weight:900;
 }
 .header-links a {
     position: relative;
@@ -103,14 +102,22 @@ body{
     color:whitesmoke;
     font-weight: 300;
     font-size: 19px;
-  
 }
-.img{
-    padding-top:30px ;
-    padding-bottom: 30px;
-    order: 2;
-    
+
+.h1{
+    font-family: 'Lexend';
+    font-weight: 800;
 }
+
+@media (min-width: 768px){
+    .img{
+        padding-top:30px ;
+        padding-bottom: 30px;
+        order: 2;
+        
+    } 
+}
+
 .under-header {
     background-color: #1f2937;
     display: flex;
