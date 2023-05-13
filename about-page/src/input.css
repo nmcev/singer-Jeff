@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-img{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url('/about-page/img/jeff.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.width-custom{
+    width: 40rem;
+}
